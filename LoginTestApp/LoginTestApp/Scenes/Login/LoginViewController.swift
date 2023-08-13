@@ -156,7 +156,7 @@ extension LoginViewController: UITextFieldDelegate {
 		let previousText = textField.text ?? ""
 		
 		defer {
-			DispatchQueue.main.asyncAfter(deadline: .now() + 0.001) { [weak self] in
+			DispatchQueue.main.asyncAfter(deadline: .now() + 0.01) { [weak self] in
 				self?.updateNextButtonState()
 			}
 		}
