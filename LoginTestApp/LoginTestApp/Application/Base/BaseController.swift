@@ -32,16 +32,3 @@ class BaseController: UIViewController {
 		view.backgroundColor = .background
 	}
 }
-
-extension BaseController {
-	
-	func hideKeyboardWhenTappedAround() {
-		let tap = UITapGestureRecognizer(target: self, action: #selector(BaseController.dismissKeyboard))
-		tap.cancelsTouchesInView = false
-		view.addGestureRecognizer(tap)
-	}
-	
-	@objc func dismissKeyboard() {
-		view.endEditing(true)
-	}
-}

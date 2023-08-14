@@ -121,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				05E4F6C02A86D72C00BCCAD3 /* Extension */,
+				05E4F6CE2A87B5FA00BCCAD3 /* String+PhoneNumberFormatting.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -129,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				05E4F6C12A86D75400BCCAD3 /* UIView+Utils.swift */,
-				05E4F6CE2A87B5FA00BCCAD3 /* String+PhoneNumberFormatting.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
