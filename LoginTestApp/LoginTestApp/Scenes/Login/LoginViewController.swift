@@ -166,7 +166,7 @@ extension LoginViewController: UITextFieldDelegate {
 			switch deletionIndex {
 			case 0:
 				return false
-			case 1, 2, 3, 6, 7, 8, 10, 13:
+			case 1, 2, 3, 6, 7, 8, 10, 11, 13:
 				handleDelete(with: 0)
 				return false
 			case 4, 9, 12:
